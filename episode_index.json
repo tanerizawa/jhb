@@ -1,1 +1,15 @@
+{
+  "episodes": [
+    {
+      "id": "episode2",
+      "title": "Festival Kambing",
+      "url": "https://yourserver.com/episodes/episode2.json"
+    },
+    {
+      "id": "episode3",
+      "title": "Kambing Kembali",
+      "url": "https://yourserver.com/episodes/episode3.json"
+    }
+  ]
+}
 

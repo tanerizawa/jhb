@@ -1,1 +1,11 @@
+{
+  "id": "ep1",
+  "title": "Episode 1",
+  "script": [
+    "label episode_1:",
+    "\"Halo dari episode 1!\"",
+    "return"
+  ],
+  "assets": []
+}
 

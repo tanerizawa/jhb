@@ -1,1 +1,9 @@
-
+{
+    "episodes": [
+        {
+            "id": 1,
+            "file": "episode1.json",
+            "title": "Prolog: Para dalang Saung"
+        }
+    ]
+}

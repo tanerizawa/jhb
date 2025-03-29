@@ -1,0 +1,369 @@
+{
+    "episodes": [
+        {
+            "id": "prolog",
+            "file": "prolog.json",
+            "title": "Prolog: Para Dalang Saung",
+            "story": [
+                {
+                    "type": "play_music",
+                    "file": "audio/bebegig.ogg",
+                    "loop": true,
+                    "fadein": 2.0
+                },
+                {
+                    "type": "window_hide"
+                },
+                {
+                    "type": "scene",
+                    "background": "black",
+                    "transition": "fade",
+                    "duration": 0.5
+                },
+                {
+                    "type": "show_effect",
+                    "effect": "Solid",
+                    "color": "#000",
+                    "as": "black_fade",
+                    "animations": [
+                        { "alpha": 0.0 },
+                        { "easein": 2.0, "alpha": 1.0, "blur": 0 }
+                    ]
+                },
+                {
+                    "type": "hide_effect",
+                    "effect": "black_fade",
+                    "transition": "dissolve",
+                    "duration": 2.0
+                },
+                {
+                    "type": "narrate",
+                    "text": "Sebelum saung itu berdiri—atau rubuh, tergantung nasib—kau perlu tahu siapa saja dalangnya.",
+                    "what_slow_cps": 20
+                },
+                {
+                    "type": "show_char",
+                    "char": "bang_jack",
+                    "position": "center",
+                    "animations": [
+                        { "alpha": 0.0, "ypos": 1.2 },
+                        {
+                            "parallel": [
+                                { "easein": 1.0, "ypos": 1.0 },
+                                { "ease": 0.8, "alpha": 1.0 }
+                            ]
+                        }
+                    ],
+                    "transition": "vpunch"
+                },
+                {
+                    "type": "narrate",
+                    "text": "Pertama: Bang Jack."
+                },
+                {
+                    "type": "animate_char",
+                    "char": "bang_jack",
+                    "animations": [
+                        { "ease": 0.5, "zoom": 1.05 },
+                        { "ease": 0.5, "zoom": 1.0 }
+                    ]
+                },
+                {
+                    "type": "narrate",
+                    "text": "Usianya tak jelas. Bisa jadi 40-an, bisa juga 60—tergantung cahaya dan siapa yang sedang menatapnya."
+                },
+                {
+                    "type": "hide_char",
+                    "char": "bang_jack",
+                    "transition": "dissolve"
+                },
+                {
+                    "type": "show_char",
+                    "char": "yuda",
+                    "position": "left",
+                    "animations": [
+                        { "alpha": 0.0, "xoffset": -300 },
+                        {
+                            "parallel": [
+                                { "easein": 0.8, "xoffset": 0 },
+                                { "linear": 0.5, "alpha": 1.0 }
+                            ]
+                        }
+                    ],
+                    "transition": "flash"
+                },
+                {
+                    "type": "narrate",
+                    "text": "Kedua: Yuda."
+                },
+                {
+                    "type": "animate_char",
+                    "char": "yuda",
+                    "animations": [
+                        { "ease": 0.3, "yoffset": 10 },
+                        { "ease": 0.3, "yoffset": 0 }
+                    ]
+                },
+                {
+                    "type": "narrate",
+                    "text": "Dulu pernah jadi mahasiswa. Sekarang jadi komentator segala hal yang tidak dia kuasai."
+                },
+                {
+                    "type": "hide_char",
+                    "char": "yuda",
+                    "transition": "moveoutleft"
+                },
+                {
+                    "type": "show_char",
+                    "char": "iyan",
+                    "position": "center",
+                    "animations": [
+                        { "alpha": 0.0, "zoom": 0.8, "ypos": 1.5 },
+                        {
+                            "parallel": [
+                                { "easein": 0.7, "ypos": 1.0 },
+                                { "ease": 0.5, "alpha": 1.0, "zoom": 1.0 }
+                            ]
+                        }
+                    ],
+                    "transition": "hpunch"
+                },
+                {
+                    "type": "narrate",
+                    "text": "Ketiga: Iyan."
+                },
+                {
+                    "type": "animate_char",
+                    "char": "iyan",
+                    "animations": [
+                        { "rotate": 0 },
+                        { "ease": 0.4, "rotate": 3 },
+                        { "ease": 0.4, "rotate": -3 },
+                        { "ease": 0.4, "rotate": 0 }
+                    ]
+                },
+                {
+                    "type": "narrate",
+                    "text": "Paling muda. Paling semangat. Paling sering diabaikan."
+                },
+                {
+                    "type": "hide_char",
+                    "char": "iyan",
+                    "transition": "squareslide"
+                },
+                {
+                    "type": "show_effect",
+                    "effect": "Solid",
+                    "color": "#fff",
+                    "as": "white_flash",
+                    "animations": [
+                        { "alpha": 0.0 },
+                        { "linear": 0.1, "alpha": 0.8 },
+                        { "linear": 0.2, "alpha": 0.0 }
+                    ]
+                },
+                {
+                    "type": "show_char",
+                    "char": "arini",
+                    "position": "center",
+                    "animations": [
+                        { "alpha": 0.0, "rotate": -15 },
+                        {
+                            "parallel": [
+                                { "easein": 0.8, "rotate": 0 },
+                                { "ease": 0.5, "alpha": 1.0 }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "narrate",
+                    "text": "Kelima: Arini."
+                },
+                {
+                    "type": "animate_char",
+                    "char": "arini",
+                    "animations": [
+                        { "blur": 5 },
+                        { "ease": 0.8, "blur": 0 }
+                    ]
+                },
+                {
+                    "type": "narrate",
+                    "text": "Dari luar, tampak paling waras. Dari dalam... ya, siapa yang tahu?"
+                },
+                {
+                    "type": "hide_char",
+                    "char": "arini",
+                    "transition": "rotatein"
+                },
+                {
+                    "type": "show_char",
+                    "char": "resti",
+                    "position": "center",
+                    "animations": [
+                        { "alpha": 0.0, "yzoom": 0.0 },
+                        { "easein_back": 0.6, "yzoom": 1.0, "alpha": 1.0 }
+                    ],
+                    "transition": "hpunch"
+                },
+                {
+                    "type": "narrate",
+                    "text": "Keenam: Resti."
+                },
+                {
+                    "type": "animate_char",
+                    "char": "resti",
+                    "animations": [
+                        { "ease": 0.3, "xoffset": 20 },
+                        { "ease": 0.3, "xoffset": -20 },
+                        { "ease": 0.3, "xoffset": 0 }
+                    ]
+                },
+                {
+                    "type": "narrate",
+                    "text": "Penyair gagal. Pernah bikin zine sastra yang isinya cuma satu halaman, sisanya lirik lagu dangdut."
+                },
+                {
+                    "type": "hide_char",
+                    "char": "resti",
+                    "transition": "fastdissolve"
+                },
+                {
+                    "type": "show_char",
+                    "char": "slebor",
+                    "position": "center",
+                    "animations": [
+                        { "alpha": 0.0, "xzoom": -1.0 },
+                        { "easein": 0.5, "xzoom": 1.0, "alpha": 1.0 }
+                    ],
+                    "transition": "vpunch"
+                },
+                {
+                    "type": "narrate",
+                    "text": "Ketujuh: Slebor."
+                },
+                {
+                    "type": "animate_char",
+                    "char": "slebor",
+                    "animations": [
+                        { "linear": 0.1, "xoffset": 30 },
+                        { "linear": 0.1, "xoffset": -30 },
+                        { "repeat": 3 },
+                        { "linear": 0.1, "xoffset": 0 }
+                    ]
+                },
+                {
+                    "type": "narrate",
+                    "text": "Tidak ada yang tahu kenapa dia dipanggil begitu. Mungkin karena cara jalannya mirip motor matic oleng."
+                },
+                {
+                    "type": "hide_char",
+                    "char": "slebor",
+                    "transition": "fade"
+                },
+                {
+                    "type": "show_char",
+                    "char": "mang_odang",
+                    "position": "center",
+                    "animations": [
+                        { "alpha": 0.0, "xzoom": -1.0 },
+                        { "easein": 0.5, "xzoom": 1.0, "alpha": 1.0 }
+                    ],
+                    "transition": "vpunch"
+                },
+                {
+                    "type": "narrate",
+                    "text": "Kedelapan: Mang Odang."
+                },
+                {
+                    "type": "animate_char",
+                    "char": "mang_odang",
+                    "animations": [
+                        { "ease": 0.5, "zoom": 1.05 },
+                        { "ease": 0.5, "zoom": 1.0 }
+                    ]
+                },
+                {
+                    "type": "narrate",
+                    "text": "Tukang servis HP. Suka oprek Android, percaya konspirasi, dan yakin semua masalah bisa diselesaikan dengan kopi saset..."
+                },
+                {
+                    "type": "hide_char",
+                    "char": "mang_odang",
+                    "transition": "dissolve",
+                    "duration": 1.5
+                },
+                {
+                    "type": "scene",
+                    "background": "gang_kampung",
+                    "animations": [
+                        { "blur": 0 },
+                        { "ease": 2.0, "blur": 20, "alpha": 0.0 }
+                    ]
+                },
+                {
+                    "type": "show_effect",
+                    "effect": "Solid",
+                    "color": "#000",
+                    "as": "fade_out",
+                    "animations": [
+                        { "alpha": 0.0 },
+                        { "linear": 2.0, "alpha": 1.0 }
+                    ]
+                },
+                {
+                    "type": "narrate",
+                    "text": "Mereka tidak punya masa lalu yang gemilang. Tidak punya masa depan yang meyakinkan."
+                },
+                {
+                    "type": "narrate",
+                    "text": "Tapi mereka punya satu sama lain. Dan satu lahan kosong bekas kandang kambing."
+                },
+                {
+                    "type": "narrate",
+                    "text": "Dari situlah semuanya bermula."
+                },
+                {
+                    "type": "window_hide"
+                },
+                {
+                    "type": "pause",
+                    "duration": 1.0
+                },
+                {
+                    "type": "show_text_effect",
+                    "text": "Mari Kita Mulai Cerita Ini...",
+                    "text_size": "+15",
+                    "text_align": 0.5,
+                    "animations": [
+                        { "alpha": 0.0, "ypos": 0.4 },
+                        {
+                            "parallel": [
+                                { "easein": 1.5, "alpha": 1.0 },
+                                { "easein": 1.5, "ypos": 0.5 }
+                            ]
+                        }
+                    ],
+                    "transition": "Pause(2.0)"
+                },
+                {
+                    "type": "hide_effect",
+                    "effect": "title_text",
+                    "transition": "dissolve",
+                    "duration": 1.5
+                },
+                {
+                    "type": "stop_music",
+                    "fadeout": 3.0
+                },
+                {
+                    "type": "scene",
+                    "background": "black",
+                    "transition": "dissolve",
+                    "duration": 2.0
+                }
+            ]
+        }
+    ]
+}
